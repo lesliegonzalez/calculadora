@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!-- CSS bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+<body>
+    <h1 align="center" >Realiza operaciones aquí🥸</h1>
+    <br>
+    <!-- Cuadro texto para ingresar números -->
+    <div class="container-sm text-center">
+        <div class="row align-items-center">
+            <div><input placeholder="Número 1" class="col-3 rounded-3 border border-primary border-1" id="num1"></div>
+            <div><input placeholder="Número 2" class="col-3 rounded-3 border border-primary border-1" id="num2"></div>
+        </div>
+        <!-- Cuadro de resultado -->
+        <div class="row align-items-center">
+            <div ><input placeholder="Resultado" class="col-4 my-2 rounded-3 border border-success border-1" id="result"></div>
+        </div>
+    </div>
+    <!-- Botones operaciones -->
+    <div class="container-sm text-center justify-content-center">
+        <button type="button" class="btn btn-outline-dark" id="sum">Suma</button>
+        <button type="button" class="btn btn-outline-dark" id="rest">Resta</button>
+        <button type="button" class="btn btn-outline-dark" id="div">División</button>
+        <button type="button" class="btn btn-outline-dark" id="mult">Multiplicación</button>
+    </div>
+
+    <!-- JS bootstrap -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- Funciones de la calculadora -->
+    <script src="./funciones.js"></script>
+</body>
+</html>
