@@ -14,18 +14,18 @@ const rest = (a,b) => a-b;
 const div = (a,b) => a/b;
 const mult = (a,b) => a*b;
 
-function suma() {
+const suma = () => {
     let num1 = parseFloat(inputNum1.value)
     let num2= parseFloat(inputNum2.value)
     inputResult.value = sum(num1, num2)
 }
-function resta() {
+const resta = () => {
     inputResult.value = rest(inputNum1.value, inputNum2.value)
 }
-function division() {
+const division = () => {
     inputResult.value = div(inputNum1.value, inputNum2.value)
 }
-function multiplicacion() {
+const multiplicacion = () => {
     inputResult.value = mult(inputNum1.value, inputNum2.value)
 }
 
